@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-191129026-1"></script>
+	<script>
+		console.log("test");
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		
+		console.log("test2");
+		gtag('config', 'UA-191129026-1');
+		gtag('config', 'G-42GZP6WZVL');
+		gtag('config', 'G-DSWK0LXBPZ');
+		console.log("test3");
+	</script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Overtake</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-42GZP6WZVL"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'G-42GZP6WZVL');
-	</script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
